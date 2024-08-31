@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 import pandas as pd
 import networkx as nx
 from pyvis.network import Network
-
+from PIL import Image
 # Read dataset (CSV)
 df_survey = pd.read_csv('data/survey_results.csv')
 
