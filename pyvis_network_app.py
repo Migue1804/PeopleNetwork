@@ -90,11 +90,5 @@ else:
 
 
 # Footer
-st.markdown(
-    """
-    <br>
-    Para mayor información, escríbeme en [link](https://www.linkedin.com/in/josemaguilar/).
-    """,
-    unsafe_allow_html=True
-)
+st.markdown("👉 **Para más información: [LinkedIn](https://www.linkedin.com/in/josemaguilar/)**")
 
