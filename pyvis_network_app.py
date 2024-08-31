@@ -31,7 +31,7 @@ selected_capacities = st.multiselect('Selecciona las capacidades a visualizar', 
 
 # Set info message on initial site load
 if len(selected_capacities) == 0:
-    st.text('Choose at least 1 capacity to start')
+    st.text('Escoge al menos una para iniciar')
 
 # Create network graph when user selects >= 1 item
 else:
