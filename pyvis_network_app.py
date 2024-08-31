@@ -12,7 +12,7 @@ st.image('People.jpg', use_column_width=True)
 
 
 # Set header title
-st.title('Network Graph Visualization of People and Their Capacities')
+st.title('Análisis de redes organizacionales - Capacidades de las personas')
 
 # Define list of unique capacities and sort alphabetically
 capacity_list = sorted(df_survey['capacity'].unique())
@@ -27,7 +27,7 @@ color_map = {
 }
 
 # Implement multiselect dropdown menu for option selection (returns a list)
-selected_capacities = st.multiselect('Select capacity/capacities to visualize', capacity_list)
+selected_capacities = st.multiselect('Selecciona las capacidades a visualizar', capacity_list)
 
 # Set info message on initial site load
 if len(selected_capacities) == 0:
