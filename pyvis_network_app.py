@@ -13,7 +13,7 @@ st.image('People.jpg', use_column_width=True)
 
 
 # Set header title
-st.title('Network Graph Visualization of People and Their Capacities')
+st.title('Análisis de redes organizacionales - Capacidades y habilidades de las personas')
 
 # Define list of unique capacities and sort alphabetically
 capacity_list = sorted(df_survey['capacity'].unique())
@@ -28,11 +28,11 @@ color_map = {
 }
 
 # Implement multiselect dropdown menu for option selection (returns a list)
-selected_capacities = st.multiselect('Select capacity/capacities to visualize', capacity_list)
+selected_capacities = st.multiselect('Selecciona las capacidades o habilidades para analizar', capacity_list)
 
 # Set info message on initial site load
 if len(selected_capacities) == 0:
-    st.text('Choose at least 1 capacity to start')
+    st.text('Escoge al menos una para iniciar')
 
 # Create network graph when user selects >= 1 item
 else:
@@ -92,7 +92,7 @@ else:
 st.markdown(
     """
     <br>
-    <h6>Para mayor información escribeme: https://www.linkedin.com/in/josemaguilar/ </h6>
+    <h6>Para mayor información, escríbeme en [LinkedIn](https://www.linkedin.com/in/josemaguilar/).</h6>
     """, unsafe_allow_html=True
 )
 
