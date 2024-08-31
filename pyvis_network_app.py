@@ -92,7 +92,7 @@ else:
 st.markdown(
     """
     <br>
-    <h6>Para mayor información, escríbeme en [LinkedIn](https://www.linkedin.com/in/josemaguilar/).</h6>
+    Para mayor información, escríbeme en [link](https://www.linkedin.com/in/josemaguilar/).
     """, unsafe_allow_html=True
 )
 
