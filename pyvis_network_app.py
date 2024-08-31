@@ -8,7 +8,7 @@ from PIL import Image
 df_survey = pd.read_csv('data/survey_results.csv')
 
 # Display the image above the title
-st.image('people.jpg', use_column_width=True)
+st.image('People.jpg', use_column_width=True)
 
 
 # Set header title
